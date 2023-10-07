@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "complementary_by_noel345:presser"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "complementary_by_noel345:table"
+    }
+  },
+  "result": {
+    "item": "complementary_by_noel345:flour",
+    "count": 1
+  }
+}

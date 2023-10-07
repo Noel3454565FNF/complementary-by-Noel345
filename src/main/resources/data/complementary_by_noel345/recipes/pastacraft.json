@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "complementary_by_noel345:presser"
+    },
+    "1": {
+      "item": "complementary_by_noel345:flour"
+    },
+    "2": {
+      "item": "complementary_by_noel345:raper"
+    }
+  },
+  "result": {
+    "item": "complementary_by_noel345:pasta",
+    "count": 1
+  }
+}

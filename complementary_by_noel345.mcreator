@@ -3,13 +3,149 @@
     {
       "name": "Expertmode",
       "type": "musicdisc",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "expertmode",
       "metadata": {
         "files": [
-          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json",
-          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java"
+          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json"
+        ]
+      }
+    },
+    {
+      "name": "Raper",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/item/raper.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/RaperItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pasta",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pasta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/item/pasta.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/PastaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rapercraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rapercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/rapercraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Flour",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/item/flour.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/FlourItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Flourcraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flourcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/flourcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Presser",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "presser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/PresserItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/presser.json"
+        ]
+      }
+    },
+    {
+      "name": "Pressercrafter",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressercrafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/pressercrafter.json"
+        ]
+      }
+    },
+    {
+      "name": "Table",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/TableItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/table.json"
+        ]
+      }
+    },
+    {
+      "name": "Tablecraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tablecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/tablecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Pastacraft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastacraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/pastacraft.json"
         ]
       }
     }
@@ -17,19 +153,25 @@
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "expert_mode",
+      "name": "going-hard",
       "files": [
         "hard_mode"
       ],
       "category": "music",
-      "subtitle": "its going hard"
+      "subtitle": "sans going hard on your mom"
     }
   ],
   "language_map": {
     "en_us": {
+      "item.complementary_by_noel345.presser": "Presser",
       "subtitles.expert_mode": "its going hard",
       "item.complementary_by_noel345.expertmode.desc": "wow sans is going hard on you",
-      "item.complementary_by_noel345.expertmode": "Expert mode"
+      "item.complementary_by_noel345.expertmode": "Expert mode",
+      "item.complementary_by_noel345.pasta": "Pasta",
+      "item.complementary_by_noel345.flour": "Flour",
+      "item.complementary_by_noel345.raper": "Raper",
+      "subtitles.going-hard": "sans going hard on your mom",
+      "item.complementary_by_noel345.table": "Table"
     }
   },
   "foldersRoot": {

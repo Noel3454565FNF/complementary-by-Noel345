@@ -18,7 +18,7 @@ import java.util.List;
 
 public class ExpertmodeItem extends RecordItem {
 	public ExpertmodeItem() {
-		super(15, ComplementaryByNoel345ModSounds.REGISTRY.get(new ResourceLocation("complementary_by_noel345:expert_mode")), new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.RARE));
+		super(15, ComplementaryByNoel345ModSounds.REGISTRY.get(new ResourceLocation("complementary_by_noel345:going-hard")), new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.RARE));
 	}
 
 	@Override
