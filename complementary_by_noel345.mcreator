@@ -1,9 +1,36 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Expertmode",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expertmode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "expert_mode",
+      "files": [
+        "hard_mode"
+      ],
+      "category": "music",
+      "subtitle": "its going hard"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "subtitles.expert_mode": "its going hard",
+      "item.complementary_by_noel345.expertmode.desc": "wow sans is going hard on you",
+      "item.complementary_by_noel345.expertmode": "Expert mode"
+    }
   },
   "foldersRoot": {
     "name": "~",

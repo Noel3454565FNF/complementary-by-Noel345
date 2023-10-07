@@ -1,0 +1,12 @@
+{
+  "expert_mode": {
+    "category": "music",
+    "subtitle": "subtitles.expert_mode",
+    "sounds": [
+      {
+        "name": "complementary_by_noel345:hard_mode",
+        "stream": true
+      }
+    ]
+  }
+}

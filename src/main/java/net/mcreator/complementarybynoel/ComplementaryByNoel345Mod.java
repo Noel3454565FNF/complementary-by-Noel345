@@ -26,6 +26,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.complementarybynoel.init.ComplementaryByNoel345ModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -41,6 +43,8 @@ public class ComplementaryByNoel345Mod {
 	public ComplementaryByNoel345Mod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ComplementaryByNoel345ModItems.REGISTRY.register(bus);
 
 	}
 

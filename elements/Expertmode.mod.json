@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Expert mode",
+    "texture": "going_hard",
+    "description": "wow sans is going hard on you",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [
+      "sans_going_hard"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:expert_mode"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}
