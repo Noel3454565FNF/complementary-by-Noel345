@@ -8,8 +8,8 @@
       "registry_name": "expertmode",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java",
-          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json"
+          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java"
         ]
       }
     }
