@@ -8,14 +8,21 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.complementarybynoel.item.ULBRENEWEDPhase2Item;
 import net.mcreator.complementarybynoel.item.TableItem;
+import net.mcreator.complementarybynoel.item.SugarinabottleItem;
 import net.mcreator.complementarybynoel.item.RaperItem;
 import net.mcreator.complementarybynoel.item.PresserItem;
 import net.mcreator.complementarybynoel.item.PastaItem;
 import net.mcreator.complementarybynoel.item.FlourItem;
 import net.mcreator.complementarybynoel.item.ExpertmodeItem;
+import net.mcreator.complementarybynoel.item.EmptybottleItem;
+import net.mcreator.complementarybynoel.item.CardboardItem;
 import net.mcreator.complementarybynoel.ComplementaryByNoel345Mod;
 
 public class ComplementaryByNoel345ModItems {
@@ -26,4 +33,14 @@ public class ComplementaryByNoel345ModItems {
 	public static final RegistryObject<Item> PRESSER = REGISTRY.register("presser", () -> new PresserItem());
 	public static final RegistryObject<Item> TABLE = REGISTRY.register("table", () -> new TableItem());
 	public static final RegistryObject<Item> EXPERTMODE = REGISTRY.register("expertmode", () -> new ExpertmodeItem());
+	public static final RegistryObject<Item> ULBRENEWED_PHASE_2 = REGISTRY.register("ulbrenewed_phase_2", () -> new ULBRENEWEDPhase2Item());
+	public static final RegistryObject<Item> EMPTYBOTTLE = REGISTRY.register("emptybottle", () -> new EmptybottleItem());
+	public static final RegistryObject<Item> SUGARINABOTTLE = REGISTRY.register("sugarinabottle", () -> new SugarinabottleItem());
+	public static final RegistryObject<Item> CARDBOARD = REGISTRY.register("cardboard", () -> new CardboardItem());
+	public static final RegistryObject<Item> CORE_CONTROLLER = block(ComplementaryByNoel345ModBlocks.CORE_CONTROLLER, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CORE = block(ComplementaryByNoel345ModBlocks.CORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "ULBRENEWED Phase 2",
+    "texture": "lastbreathphase2a",
+    "description": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILLTEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die HUMAN",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [
+      "sanskillyoubutyouslashedhimbefore"
+    ],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:ulb_renewed_phase2"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 1
+  }
+}

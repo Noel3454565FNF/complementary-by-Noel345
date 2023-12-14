@@ -18,6 +18,7 @@ import java.util.HashMap;
 public class ComplementaryByNoel345ModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
+		REGISTRY.put(new ResourceLocation("complementary_by_noel345", "ulb_renewed_phase2"), new SoundEvent(new ResourceLocation("complementary_by_noel345", "ulb_renewed_phase2")));
 		REGISTRY.put(new ResourceLocation("complementary_by_noel345", "going-hard"), new SoundEvent(new ResourceLocation("complementary_by_noel345", "going-hard")));
 	}
 

@@ -1,4 +1,14 @@
 {
+  "ulb_renewed_phase2": {
+    "category": "music",
+    "subtitle": "subtitles.ulb_renewed_phase2",
+    "sounds": [
+      {
+        "name": "complementary_by_noel345:close_to_inevitability",
+        "stream": true
+      }
+    ]
+  },
   "going-hard": {
     "category": "music",
     "subtitle": "subtitles.going-hard",

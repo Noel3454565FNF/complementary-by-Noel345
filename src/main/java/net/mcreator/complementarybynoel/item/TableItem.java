@@ -8,7 +8,7 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class TableItem extends Item {
 	public TableItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).durability(345).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(345).rarity(Rarity.COMMON));
 	}
 
 	@Override

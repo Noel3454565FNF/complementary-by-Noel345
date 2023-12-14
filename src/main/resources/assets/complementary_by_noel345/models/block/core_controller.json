@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "complementary_by_noel345:blocks/core_controller",
+    "up": "complementary_by_noel345:blocks/core_controller",
+    "north": "complementary_by_noel345:blocks/core_controller",
+    "east": "complementary_by_noel345:blocks/core_controller",
+    "south": "complementary_by_noel345:blocks/core_controller",
+    "west": "complementary_by_noel345:blocks/core_controller",
+    "particle": "complementary_by_noel345:blocks/core_controller"
+  }
+}

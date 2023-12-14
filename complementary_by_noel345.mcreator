@@ -148,10 +148,481 @@
           "src/main/resources/data/complementary_by_noel345/recipes/pastacraft.json"
         ]
       }
+    },
+    {
+      "name": "ULBRENEWEDPhase2",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulbrenewed_phase_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/ULBRENEWEDPhase2Item.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/ulbrenewed_phase_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Emptybottle",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptybottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/EmptybottleItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/emptybottle.json"
+        ]
+      }
+    },
+    {
+      "name": "Sugarinabottle",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarinabottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/item/sugarinabottle.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/SugarinabottleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Specialbottlecraft",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "specialbottlecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/specialbottlecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Cardboard",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/CardboardItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/cardboard.json"
+        ]
+      }
+    },
+    {
+      "name": "Cardboardcraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboardcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/cardboardcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Bottlewithsugarcraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottlewithsugarcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/complementary_by_noel345/recipes/bottlewithsugarcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "COREController",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_controller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/blockstates/core_controller.json",
+          "src/main/resources/assets/complementary_by_noel345/models/block/core_controller.json",
+          "src/main/resources/assets/complementary_by_noel345/models/item/core_controller.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/COREControllerBlock.java",
+          "src/main/java/net/mcreator/complementarybynoel/block/entity/COREControllerBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CORE",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/block/entity/COREBlockEntity.java",
+          "src/main/resources/assets/complementary_by_noel345/blockstates/core.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/COREBlock.java",
+          "src/main/resources/assets/complementary_by_noel345/models/block/core.json",
+          "src/main/resources/assets/complementary_by_noel345/models/item/core.json"
+        ]
+      }
+    },
+    {
+      "name": "COREBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_block_valid_placement_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/COREBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Check_CONNECTOR",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_connector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/Check_CONNECTORProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Core_valid_place",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_valid_place",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/Core_valid_placeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "COREUpdateTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/COREUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "COREControllerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_controller_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/client/gui/COREControllerGUIScreen.java",
+          "src/main/java/net/mcreator/complementarybynoel/world/inventory/COREControllerGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Open_gui_coreController",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_core_controller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/Open_gui_coreControllerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "COREControllerUpdateTick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_controller_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/COREControllerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpdateCORECONTROLLERGUI",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "update_corecontrollergui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/UpdateCORECONTROLLERGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "COREControllerGUIValue",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_controller_gui_value",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/COREControllerGUIValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "CORE_CONNECTED",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "CORE_TEMPERATURE",
+      "type": "number",
+      "scope": "map",
+      "value": "500.0"
+    },
+    {
+      "name": "CORE_INIT",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "PL1_CONNECTED",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "PL2_CONNECTED",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "CL1_CONNECTED",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "CL2_CONNECTED",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "PL1_POWER",
+      "type": "number",
+      "scope": "map",
+      "value": "1.0"
+    },
+    {
+      "name": "CORE_CONTROLLER_ENERGY",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "CORE_WHERE_X",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "CORE_WHERE_Y",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "CORE_WHERE_Z",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
+    {
+      "name": "ulb_renewed_phase2",
+      "files": [
+        "close_to_inevitability"
+      ],
+      "category": "music",
+      "subtitle": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILL TEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die human."
+    },
     {
       "name": "going-hard",
       "files": [
@@ -164,14 +635,24 @@
   "language_map": {
     "en_us": {
       "item.complementary_by_noel345.presser": "Presser",
-      "subtitles.expert_mode": "its going hard",
-      "item.complementary_by_noel345.expertmode.desc": "wow sans is going hard on you",
-      "item.complementary_by_noel345.expertmode": "Expert mode",
+      "item.complementary_by_noel345.cardboard": "Cardboard",
       "item.complementary_by_noel345.pasta": "Pasta",
       "item.complementary_by_noel345.flour": "Flour",
+      "item.complementary_by_noel345.ulbrenewed_phase_2.desc": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILLTEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die HUMAN",
       "item.complementary_by_noel345.raper": "Raper",
       "subtitles.going-hard": "sans going hard on your mom",
-      "item.complementary_by_noel345.table": "Table"
+      "item.complementary_by_noel345.ulbrenewed_phase_2": "ULBRENEWED Phase 2",
+      "gui.complementary_by_noel345.core_controller_gui.label_coretemp": "TEMPERATURE",
+      "item.complementary_by_noel345.table": "Table",
+      "subtitles.expert_mode": "its going hard",
+      "item.complementary_by_noel345.emptybottle": "Emptybottle",
+      "item.complementary_by_noel345.expertmode.desc": "wow sans is going hard on you",
+      "item.complementary_by_noel345.sugarinabottle": "Sugarinabottle",
+      "item.complementary_by_noel345.expertmode": "Expert mode",
+      "subtitles.ulb_renewed_phase2": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILL TEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die human.",
+      "block.complementary_by_noel345.core_controller": "CORE Controller",
+      "gui.complementary_by_noel345.core_controller_gui.label_power": "0",
+      "block.complementary_by_noel345.core": "CORE"
     }
   },
   "foldersRoot": {

@@ -27,6 +27,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.complementarybynoel.init.ComplementaryByNoel345ModItems;
+import net.mcreator.complementarybynoel.init.ComplementaryByNoel345ModBlocks;
+import net.mcreator.complementarybynoel.init.ComplementaryByNoel345ModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,8 +45,10 @@ public class ComplementaryByNoel345Mod {
 	public ComplementaryByNoel345Mod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ComplementaryByNoel345ModBlocks.REGISTRY.register(bus);
 		ComplementaryByNoel345ModItems.REGISTRY.register(bus);
+
+		ComplementaryByNoel345ModBlockEntities.REGISTRY.register(bus);
 
 	}
 
