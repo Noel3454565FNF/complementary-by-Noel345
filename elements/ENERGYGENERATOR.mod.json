@@ -36,7 +36,7 @@
     "name": "ENERGYGENERATOR",
     "specialInfo": [],
     "hardness": 1.0,
-    "resistance": 100.0,
+    "resistance": 2000.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

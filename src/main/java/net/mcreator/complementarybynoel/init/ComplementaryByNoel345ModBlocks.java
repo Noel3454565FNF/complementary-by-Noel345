@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.complementarybynoel.block.ENERGYGENERATORBlock;
+import net.mcreator.complementarybynoel.block.CableBlock;
 import net.mcreator.complementarybynoel.block.COREControllerBlock;
 import net.mcreator.complementarybynoel.block.COREBlock;
 import net.mcreator.complementarybynoel.block.BatterieBlock;
@@ -22,4 +23,5 @@ public class ComplementaryByNoel345ModBlocks {
 	public static final RegistryObject<Block> CORE = REGISTRY.register("core", () -> new COREBlock());
 	public static final RegistryObject<Block> ENERGYGENERATOR = REGISTRY.register("energygenerator", () -> new ENERGYGENERATORBlock());
 	public static final RegistryObject<Block> BATTERIE = REGISTRY.register("batterie", () -> new BatterieBlock());
+	public static final RegistryObject<Block> CABLE = REGISTRY.register("cable", () -> new CableBlock());
 }

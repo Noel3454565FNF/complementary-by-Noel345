@@ -29,7 +29,7 @@ import java.util.Collections;
 
 public class BatterieBlock extends Block implements EntityBlock {
 	public BatterieBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 700f));
 	}
 
 	@Override

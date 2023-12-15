@@ -43,7 +43,7 @@ import io.netty.buffer.Unpooled;
 
 public class ENERGYGENERATORBlock extends Block implements EntityBlock {
 	public ENERGYGENERATORBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 100f).requiresCorrectToolForDrops().randomTicks());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 2000f).requiresCorrectToolForDrops().randomTicks());
 	}
 
 	@Override
@@ -113,7 +113,7 @@ public class ENERGYGENERATORBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		ENERGYGENERATOROnBlockRightClickedProcedure.execute(world, x, y, z);
+		ENERGYGENERATOROnBlockRightClickedProcedure.execute();
 		return InteractionResult.SUCCESS;
 	}
 

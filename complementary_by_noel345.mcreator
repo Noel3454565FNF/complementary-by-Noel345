@@ -9,8 +9,8 @@
       "registry_name": "expertmode",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java",
-          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json"
+          "src/main/resources/assets/complementary_by_noel345/models/item/expertmode.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/ExpertmodeItem.java"
         ]
       }
     },
@@ -118,8 +118,8 @@
       "registry_name": "table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/complementarybynoel/item/TableItem.java",
-          "src/main/resources/assets/complementary_by_noel345/models/item/table.json"
+          "src/main/resources/assets/complementary_by_noel345/models/item/table.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/TableItem.java"
         ]
       }
     },
@@ -172,8 +172,8 @@
       "registry_name": "emptybottle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/complementarybynoel/item/EmptybottleItem.java",
-          "src/main/resources/assets/complementary_by_noel345/models/item/emptybottle.json"
+          "src/main/resources/assets/complementary_by_noel345/models/item/emptybottle.json",
+          "src/main/java/net/mcreator/complementarybynoel/item/EmptybottleItem.java"
         ]
       }
     },
@@ -186,8 +186,8 @@
       "registry_name": "sugarinabottle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/complementary_by_noel345/models/item/sugarinabottle.json",
-          "src/main/java/net/mcreator/complementarybynoel/item/SugarinabottleItem.java"
+          "src/main/java/net/mcreator/complementarybynoel/item/SugarinabottleItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/sugarinabottle.json"
         ]
       }
     },
@@ -253,11 +253,11 @@
       "registry_name": "core_controller",
       "metadata": {
         "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/item/core_controller.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/entity/COREControllerBlockEntity.java",
           "src/main/resources/assets/complementary_by_noel345/blockstates/core_controller.json",
           "src/main/resources/assets/complementary_by_noel345/models/block/core_controller.json",
-          "src/main/resources/assets/complementary_by_noel345/models/item/core_controller.json",
-          "src/main/java/net/mcreator/complementarybynoel/block/COREControllerBlock.java",
-          "src/main/java/net/mcreator/complementarybynoel/block/entity/COREControllerBlockEntity.java"
+          "src/main/java/net/mcreator/complementarybynoel/block/COREControllerBlock.java"
         ]
       }
     },
@@ -270,11 +270,11 @@
       "registry_name": "core",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/complementarybynoel/block/entity/COREBlockEntity.java",
-          "src/main/resources/assets/complementary_by_noel345/blockstates/core.json",
           "src/main/java/net/mcreator/complementarybynoel/block/COREBlock.java",
           "src/main/resources/assets/complementary_by_noel345/models/block/core.json",
-          "src/main/resources/assets/complementary_by_noel345/models/item/core.json"
+          "src/main/resources/assets/complementary_by_noel345/blockstates/core.json",
+          "src/main/resources/assets/complementary_by_noel345/models/item/core.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/entity/COREBlockEntity.java"
         ]
       }
     },
@@ -411,8 +411,8 @@
       "registry_name": "core_controller_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/complementarybynoel/client/gui/COREControllerGUIScreen.java",
-          "src/main/java/net/mcreator/complementarybynoel/world/inventory/COREControllerGUIMenu.java"
+          "src/main/java/net/mcreator/complementarybynoel/world/inventory/COREControllerGUIMenu.java",
+          "src/main/java/net/mcreator/complementarybynoel/client/gui/COREControllerGUIScreen.java"
         ]
       }
     },
@@ -551,24 +551,7 @@
         "files": [
           "src/main/java/net/mcreator/complementarybynoel/procedures/ENERGYGENERATOROnBlockRightClickedProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -580,11 +563,11 @@
       "registry_name": "energygenerator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/complementary_by_noel345/models/item/energygenerator.json",
-          "src/main/java/net/mcreator/complementarybynoel/block/ENERGYGENERATORBlock.java",
+          "src/main/resources/assets/complementary_by_noel345/blockstates/energygenerator.json",
           "src/main/java/net/mcreator/complementarybynoel/block/entity/ENERGYGENERATORBlockEntity.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/energygenerator.json",
           "src/main/resources/assets/complementary_by_noel345/models/block/energygenerator.json",
-          "src/main/resources/assets/complementary_by_noel345/blockstates/energygenerator.json"
+          "src/main/java/net/mcreator/complementarybynoel/block/ENERGYGENERATORBlock.java"
         ]
       }
     },
@@ -598,8 +581,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/complementarybynoel/client/gui/EnergygeneratorGUIScreen.java",
-          "src/main/java/net/mcreator/complementarybynoel/world/inventory/EnergygeneratorGUIMenu.java",
-          "src/main/java/net/mcreator/complementarybynoel/network/EnergygeneratorGUISlotMessage.java"
+          "src/main/java/net/mcreator/complementarybynoel/network/EnergygeneratorGUISlotMessage.java",
+          "src/main/java/net/mcreator/complementarybynoel/world/inventory/EnergygeneratorGUIMenu.java"
         ]
       }
     },
@@ -733,11 +716,11 @@
       "registry_name": "batterie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/complementary_by_noel345/models/block/batterie.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/BatterieBlock.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/batterie.json",
           "src/main/java/net/mcreator/complementarybynoel/block/entity/BatterieBlockEntity.java",
           "src/main/resources/assets/complementary_by_noel345/blockstates/batterie.json",
-          "src/main/resources/assets/complementary_by_noel345/models/item/batterie.json",
-          "src/main/java/net/mcreator/complementarybynoel/block/BatterieBlock.java"
+          "src/main/resources/assets/complementary_by_noel345/models/block/batterie.json"
         ]
       }
     },
@@ -752,6 +735,98 @@
         "files": [
           "src/main/java/net/mcreator/complementarybynoel/world/inventory/BatterieGUIMenu.java",
           "src/main/java/net/mcreator/complementarybynoel/client/gui/BatterieGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Minewire",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minewire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/MinewireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cable",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/item/cable.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/CableBlock.java",
+          "src/main/resources/assets/complementary_by_noel345/blockstates/cable.json",
+          "src/main/resources/assets/complementary_by_noel345/models/block/cable.json"
+        ]
+      }
+    },
+    {
+      "name": "MaintenanceToolRightclicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maintenance_tool_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/MaintenanceToolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaintenanceTool",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maintenance_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/MaintenanceToolItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/maintenance_tool.json"
         ]
       }
     }
@@ -856,11 +931,13 @@
       "item.complementary_by_noel345.pasta": "Pasta",
       "item.complementary_by_noel345.flour": "Flour",
       "itemGroup.tabstolenfromthethermalplant": "Stolen from the thermal plant",
+      "item.complementary_by_noel345.maintenance_tool": "Maintenance Tool",
       "item.complementary_by_noel345.magma_crystal": "Magma Crystal",
       "item.complementary_by_noel345.ulbrenewed_phase_2": "ULBRENEWED Phase 2",
       "item.complementary_by_noel345.table": "Table",
       "block.complementary_by_noel345.core_controller": "CORE Controller",
       "gui.complementary_by_noel345.core_controller_gui.label_power": "0",
+      "block.complementary_by_noel345.cable": "Cable",
       "block.complementary_by_noel345.energygenerator": "ENERGYGENERATOR",
       "gui.complementary_by_noel345.batterie_gui.label_energy": "0",
       "item.complementary_by_noel345.ulbrenewed_phase_2.desc": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILLTEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die HUMAN",

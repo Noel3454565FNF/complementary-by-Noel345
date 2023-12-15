@@ -60,6 +60,7 @@ public class EnergygeneratorguienergySourceProcedure {
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
+					ENERGYGENERATORUpdateTickProcedure.execute(world, x, y, z);
 				}
 				if (!((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
 						.getItem() == ComplementaryByNoel345ModItems.MAGMA_CRYSTAL.get())) {
