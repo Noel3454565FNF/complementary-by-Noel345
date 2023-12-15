@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "complementary_by_noel345:blocks/batterie",
+    "up": "complementary_by_noel345:blocks/batterie",
+    "north": "complementary_by_noel345:blocks/batterie",
+    "east": "complementary_by_noel345:blocks/batterie",
+    "south": "complementary_by_noel345:blocks/batterie",
+    "west": "complementary_by_noel345:blocks/batterie",
+    "particle": "complementary_by_noel345:blocks/batterie"
+  }
+}
