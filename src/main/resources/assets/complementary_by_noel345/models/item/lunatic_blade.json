@@ -1,0 +1,6 @@
+{
+  "parent": "complementary_by_noel345:custom/test",
+  "textures": {
+    "particle": "complementary_by_noel345:items/lok"
+  }
+}

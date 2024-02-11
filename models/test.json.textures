@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {},
+      "name": "default"
+    },
+    "handle": {
+      "map": {},
+      "name": "handle"
+    }
+  }
+}

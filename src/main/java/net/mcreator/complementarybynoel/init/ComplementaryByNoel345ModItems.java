@@ -19,6 +19,7 @@ import net.mcreator.complementarybynoel.item.SugarinabottleItem;
 import net.mcreator.complementarybynoel.item.RaperItem;
 import net.mcreator.complementarybynoel.item.PresserItem;
 import net.mcreator.complementarybynoel.item.PastaItem;
+import net.mcreator.complementarybynoel.item.LunaticBladeItem;
 import net.mcreator.complementarybynoel.item.FlourItem;
 import net.mcreator.complementarybynoel.item.ExpertmodeItem;
 import net.mcreator.complementarybynoel.item.EmptybottleItem;
@@ -39,6 +40,8 @@ public class ComplementaryByNoel345ModItems {
 	public static final RegistryObject<Item> CARDBOARD = REGISTRY.register("cardboard", () -> new CardboardItem());
 	public static final RegistryObject<Item> CORE_CONTROLLER = block(ComplementaryByNoel345ModBlocks.CORE_CONTROLLER, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CORE = block(ComplementaryByNoel345ModBlocks.CORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LUNATIC_BLADE = REGISTRY.register("lunatic_blade", () -> new LunaticBladeItem());
+	public static final RegistryObject<Item> COREZERO = block(ComplementaryByNoel345ModBlocks.COREZERO, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

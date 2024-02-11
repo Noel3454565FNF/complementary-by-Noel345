@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.complementarybynoel.client.gui.CoreZeroGUIScreen;
 import net.mcreator.complementarybynoel.client.gui.COREControllerGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -18,6 +19,7 @@ public class ComplementaryByNoel345ModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			MenuScreens.register(ComplementaryByNoel345ModMenus.CORE_ZERO_GUI, CoreZeroGUIScreen::new);
 			MenuScreens.register(ComplementaryByNoel345ModMenus.CORE_CONTROLLER_GUI, COREControllerGUIScreen::new);
 		});
 	}

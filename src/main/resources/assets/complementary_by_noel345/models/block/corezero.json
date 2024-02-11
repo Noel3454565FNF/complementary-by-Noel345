@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "complementary_by_noel345:blocks/core_zero",
+    "up": "complementary_by_noel345:blocks/core_zero",
+    "north": "complementary_by_noel345:blocks/core_zero",
+    "east": "complementary_by_noel345:blocks/core_zero",
+    "south": "complementary_by_noel345:blocks/core_zero",
+    "west": "complementary_by_noel345:blocks/core_zero",
+    "particle": "complementary_by_noel345:blocks/core_zero"
+  }
+}
