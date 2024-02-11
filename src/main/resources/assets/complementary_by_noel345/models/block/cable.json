@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "complementary_by_noel345:blocks/wire",
+    "up": "complementary_by_noel345:blocks/wire",
+    "north": "complementary_by_noel345:blocks/wire",
+    "east": "complementary_by_noel345:blocks/wire",
+    "south": "complementary_by_noel345:blocks/wire",
+    "west": "complementary_by_noel345:blocks/wire",
+    "particle": "complementary_by_noel345:blocks/wire"
+  }
+}

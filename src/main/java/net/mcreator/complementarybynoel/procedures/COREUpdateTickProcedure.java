@@ -1,6 +1,5 @@
 package net.mcreator.complementarybynoel.procedures;
 
-import net.minecraftforge.server.ServerLifecycleHooks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -9,11 +8,7 @@ import net.minecraftforge.energy.CapabilityEnergy;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.ChatType;
 import net.minecraft.core.BlockPos;
-import net.minecraft.Util;
 
 import net.mcreator.complementarybynoel.network.ComplementaryByNoel345ModVariables;
 
@@ -33,11 +28,6 @@ public class COREUpdateTickProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if (!world.isClientSide()) {
-			MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
-			if (_mcserv != null)
-				_mcserv.getPlayerList().broadcastMessage(new TextComponent("energy sended"), ChatType.SYSTEM, Util.NIL_UUID);
-		}
 		if ((ComplementaryByNoel345ModVariables.MapVariables.get(world).CORE_CONNECTED && ComplementaryByNoel345ModVariables.MapVariables.get(world).CORE_INIT) == true) {
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y - 1, z));

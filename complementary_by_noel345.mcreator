@@ -405,7 +405,6 @@
     {
       "name": "COREControllerGUI",
       "type": "gui",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "core_controller_gui",
@@ -541,20 +540,6 @@
       }
     },
     {
-      "name": "LunaticBlade",
-      "type": "tool",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lunatic_blade",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/complementarybynoel/item/LunaticBladeItem.java",
-          "src/main/resources/assets/complementary_by_noel345/models/item/lunatic_blade.json"
-        ]
-      }
-    },
-    {
       "name": "CoreZeroGUI",
       "type": "gui",
       "sortid": 30,
@@ -581,6 +566,310 @@
           "src/main/resources/assets/complementary_by_noel345/blockstates/corezero.json",
           "src/main/java/net/mcreator/complementarybynoel/block/COREZEROBlock.java",
           "src/main/resources/assets/complementary_by_noel345/models/block/corezero.json"
+        ]
+      }
+    },
+    {
+      "name": "LunaticBlade",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunatic_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/LunaticBladeItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/lunatic_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/complementary_by_noel345/models/block/cable.json",
+          "src/main/resources/assets/complementary_by_noel345/models/item/cable.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/CableBlock.java",
+          "src/main/resources/assets/complementary_by_noel345/blockstates/cable.json"
+        ]
+      }
+    },
+    {
+      "name": "MaintenanceToolRightclicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maintenance_tool_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/MaintenanceToolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batterie",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batterie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/block/BatterieBlock.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/batterie.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/entity/BatterieBlockEntity.java",
+          "src/main/resources/assets/complementary_by_noel345/blockstates/batterie.json",
+          "src/main/resources/assets/complementary_by_noel345/models/block/batterie.json"
+        ]
+      }
+    },
+    {
+      "name": "MaintenanceTool",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maintenance_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/MaintenanceToolItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/maintenance_tool.json"
+        ]
+      }
+    },
+    {
+      "name": "EnergygeneratorguienergySource",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygeneratorguienergy_source",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/EnergygeneratorguienergySourceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmaCrystal",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/item/MagmaCrystalItem.java",
+          "src/main/resources/assets/complementary_by_noel345/models/item/magma_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "ENERGYGENERATORUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygenerator_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/ENERGYGENERATORUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnergygeneratorGUI",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygenerator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/network/EnergygeneratorGUISlotMessage.java",
+          "src/main/java/net/mcreator/complementarybynoel/client/gui/EnergygeneratorGUIScreen.java",
+          "src/main/java/net/mcreator/complementarybynoel/world/inventory/EnergygeneratorGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Stolenfromthethermalplant",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stolenfromthethermalplant",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BatterieOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batterie_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/BatterieOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BatterieGUI",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batterie_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/world/inventory/BatterieGUIMenu.java",
+          "src/main/java/net/mcreator/complementarybynoel/client/gui/BatterieGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ENERGYGENERATOROnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygenerator_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/ENERGYGENERATOROnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ENERGYGENERATOR",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygenerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/block/entity/ENERGYGENERATORBlockEntity.java",
+          "src/main/resources/assets/complementary_by_noel345/blockstates/energygenerator.json",
+          "src/main/resources/assets/complementary_by_noel345/models/item/energygenerator.json",
+          "src/main/resources/assets/complementary_by_noel345/models/block/energygenerator.json",
+          "src/main/java/net/mcreator/complementarybynoel/block/ENERGYGENERATORBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Minewire",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minewire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/complementarybynoel/procedures/MinewireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -680,26 +969,24 @@
   "language_map": {
     "en_us": {
       "item.complementary_by_noel345.presser": "Presser",
-      "gui.complementary_by_noel345.core_zero_gui.button_detonation": "detonation",
       "item.complementary_by_noel345.cardboard": "Cardboard",
+      "block.complementary_by_noel345.batterie": "Batterie",
       "item.complementary_by_noel345.pasta": "Pasta",
-      "block.complementary_by_noel345.corezero": "COREZERO",
       "item.complementary_by_noel345.flour": "Flour",
+      "item.complementary_by_noel345.ulbrenewed_phase_2": "ULBRENEWED Phase 2",
+      "item.complementary_by_noel345.table": "Table",
+      "block.complementary_by_noel345.core_controller": "CORE Controller",
+      "gui.complementary_by_noel345.core_controller_gui.label_power": "0",
       "item.complementary_by_noel345.ulbrenewed_phase_2.desc": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILLTEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die HUMAN",
       "item.complementary_by_noel345.raper": "Raper",
       "subtitles.going-hard": "sans going hard on your mom",
-      "item.complementary_by_noel345.ulbrenewed_phase_2": "ULBRENEWED Phase 2",
       "gui.complementary_by_noel345.core_controller_gui.label_coretemp": "TEMPERATURE",
-      "item.complementary_by_noel345.table": "Table",
       "subtitles.expert_mode": "its going hard",
       "item.complementary_by_noel345.emptybottle": "Emptybottle",
       "item.complementary_by_noel345.expertmode.desc": "wow sans is going hard on you",
       "item.complementary_by_noel345.sugarinabottle": "Sugarinabottle",
       "item.complementary_by_noel345.expertmode": "Expert mode",
       "subtitles.ulb_renewed_phase2": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILL TEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die human.",
-      "block.complementary_by_noel345.core_controller": "CORE Controller",
-      "item.complementary_by_noel345.lunatic_blade": "Lunatic Blade",
-      "gui.complementary_by_noel345.core_controller_gui.label_power": "0",
       "block.complementary_by_noel345.core": "CORE"
     }
   },

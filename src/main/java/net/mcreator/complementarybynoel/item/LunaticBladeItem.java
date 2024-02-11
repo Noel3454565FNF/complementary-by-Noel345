@@ -1,11 +1,7 @@
 
 package net.mcreator.complementarybynoel.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class LunaticBladeItem extends SwordItem {
 	public LunaticBladeItem() {
@@ -33,6 +29,11 @@ public class LunaticBladeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		},
+
+				3, -3f,
+
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
+
 }

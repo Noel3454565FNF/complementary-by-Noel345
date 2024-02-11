@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Stolen from the thermal plant",
+    "icon": {
+      "value": "CUSTOM:MagmaCrystal"
+    },
+    "showSearch": true
+  }
+}

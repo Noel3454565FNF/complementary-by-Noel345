@@ -1,9 +1,8 @@
 {
   "item.complementary_by_noel345.presser": "Presser",
-  "gui.complementary_by_noel345.core_zero_gui.button_detonation": "detonation",
   "item.complementary_by_noel345.cardboard": "Cardboard",
+  "block.complementary_by_noel345.batterie": "Batterie",
   "item.complementary_by_noel345.pasta": "Pasta",
-  "block.complementary_by_noel345.corezero": "COREZERO",
   "item.complementary_by_noel345.flour": "Flour",
   "item.complementary_by_noel345.ulbrenewed_phase_2.desc": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILLTEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die HUMAN",
   "item.complementary_by_noel345.raper": "Raper",
@@ -18,7 +17,6 @@
   "item.complementary_by_noel345.expertmode": "Expert mode",
   "subtitles.ulb_renewed_phase2": "FINALLY ITS YOUR ONLY GOAL TO KILL ME, YOUR RESET HAVE TOUGHT TO MEMORYZE MY BONES, IVE KNOW ITS NOT THE FIRST TIME I WON, I WILL TEACH YOU A LESSON YOU WILL NOT FORGET... Get ready to die human.",
   "block.complementary_by_noel345.core_controller": "CORE Controller",
-  "item.complementary_by_noel345.lunatic_blade": "Lunatic Blade",
   "gui.complementary_by_noel345.core_controller_gui.label_power": "0",
   "block.complementary_by_noel345.core": "CORE"
 }
